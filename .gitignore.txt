@@ -1,0 +1,16 @@
+# Системные файлы Windows
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+
+# Mobirise резервные файлы
+project.mobirise_bak
+
+# Временные файлы
+*.tmp
+*.log
+*.swp
+
+служебная/
