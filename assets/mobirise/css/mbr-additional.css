@@ -1689,3 +1689,6 @@ a {
 .cid-v5b0zY8ggv .card-text {
   color: #b3b3b3;
 }
+section.display-7 {
+  display: none !important;
+}
