@@ -185,9 +185,9 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #ffd7ef !important;
-  border-color: #ffd7ef !important;
-  color: #d70081 !important;
+  background-color: #56a4d8 !important;
+  border-color: #56a4d8 !important;
+  color: #ffffff !important;
   box-shadow: none;
 }
 .btn-secondary:hover,
@@ -195,15 +195,15 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: inherit;
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
+  background-color: #7fbae2 !important;
+  border-color: #7fbae2 !important;
   box-shadow: none;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #d70081 !important;
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
+  color: #ffffff !important;
+  background-color: #7fbae2 !important;
+  border-color: #7fbae2 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -361,23 +361,23 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background-color: transparent !important;
-  border-color: #ffd7ef;
-  color: #ffd7ef;
+  border-color: #56a4d8;
+  color: #56a4d8;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #ff80cc !important;
+  color: #2879af !important;
   background-color: transparent !important;
-  border-color: #ff80cc !important;
+  border-color: #2879af !important;
   box-shadow: none !important;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
-  color: #d70081 !important;
-  background-color: #ffd7ef !important;
-  border-color: #ffd7ef !important;
+  color: #ffffff !important;
+  background-color: #56a4d8 !important;
+  border-color: #56a4d8 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -509,7 +509,7 @@ body {
   color: #ff6b00 !important;
 }
 .text-secondary {
-  color: #ffd7ef !important;
+  color: #56a4d8 !important;
 }
 .text-success {
   color: #3a341c !important;
@@ -537,7 +537,7 @@ a.text-primary.active {
 a.text-secondary:hover,
 a.text-secondary:focus,
 a.text-secondary.active {
-  color: #ff71c6 !important;
+  color: #2670a3 !important;
 }
 a.text-success:hover,
 a.text-success:focus,
@@ -720,7 +720,7 @@ blockquote {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #000000 !important;
-  background: #ffd7ef !important;
+  background: #56a4d8 !important;
   box-shadow: none !important;
 }
 .lazy-bg {
@@ -1580,15 +1580,15 @@ a {
     padding: 4rem;
   }
 }
-.cid-v5ssh4F3DI {
-  padding-top: 5rem;
-  padding-bottom: 4rem;
-  background-color: #1b242c;
+.cid-v5tMfqZvbD {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #252e36;
 }
-.cid-v5ssh4F3DI .mbr-fallback-image.disabled {
+.cid-v5tMfqZvbD .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-v5ssh4F3DI .mbr-fallback-image {
+.cid-v5tMfqZvbD .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1597,18 +1597,54 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-v5ssh4F3DI .mbr-section-subtitle {
-  text-align: justify;
-  color: #a6a99c;
+.cid-v5tMfqZvbD .top-line {
+  display: flex;
+  justify-content: flex-end;
 }
-.cid-v5ssh4F3DI .mbr-section-title {
+@media (max-width: 767px) {
+  .cid-v5tMfqZvbD .top-line {
+    justify-content: center;
+  }
+}
+.cid-v5tMfqZvbD .mbr-section-title,
+.cid-v5tMfqZvbD .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-v5tMfqZvbD .item:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-v5tMfqZvbD .item-wrapper {
+  border-radius: 4px;
+  background-color: #b3b3b3;
+}
+.cid-v5tMfqZvbD .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-v5tMfqZvbD .card-box {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .cid-v5tMfqZvbD .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-v5tMfqZvbD .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-v5tMfqZvbD .mbr-section-title {
   text-align: justify;
   color: #edefeb;
 }
 .cid-v5b0zY8ggv {
-  padding-top: 9rem;
+  padding-top: 2rem;
   padding-bottom: 0rem;
-  background-color: #1b242c;
+  background-color: #252e36;
 }
 .cid-v5b0zY8ggv .mbr-fallback-image.disabled {
   display: none;
@@ -1636,5 +1672,5 @@ a {
   padding-right: 1.5rem;
 }
 .cid-v5b0zY8ggv .card-text {
-  color: #b3b3b3;
+  color: #a6a99c;
 }
