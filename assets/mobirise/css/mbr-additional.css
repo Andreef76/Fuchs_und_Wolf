@@ -1599,12 +1599,7 @@ a {
 }
 .cid-v5tMfqZvbD .top-line {
   display: flex;
-  justify-content: flex-end;
-}
-@media (max-width: 767px) {
-  .cid-v5tMfqZvbD .top-line {
-    justify-content: center;
-  }
+  justify-content: space-between;
 }
 .cid-v5tMfqZvbD .mbr-section-title,
 .cid-v5tMfqZvbD .mbr-section-subtitle {
