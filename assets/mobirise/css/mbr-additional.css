@@ -794,11 +794,11 @@ a {
 }
 .mini {
   font-family: 'Inter Tight', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   line-height: 1.5;
 }
 .mini > .mbr-iconfont {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 .title-0 {
   font-family: 'Inter Tight', sans-serif;
@@ -1580,15 +1580,15 @@ a {
     padding: 4rem;
   }
 }
-.cid-v5a3NAnxnm {
-  padding-top: 3rem;
+.cid-v5ssh4F3DI {
+  padding-top: 5rem;
   padding-bottom: 4rem;
-  background: #1b242c;
+  background-color: #1b242c;
 }
-.cid-v5a3NAnxnm .mbr-fallback-image.disabled {
+.cid-v5ssh4F3DI .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-v5a3NAnxnm .mbr-fallback-image {
+.cid-v5ssh4F3DI .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1597,74 +1597,16 @@ a {
   position: absolute;
   top: 0;
 }
-@media (max-width: 992px) {
-  .cid-v5a3NAnxnm .row .map-wrapper {
-    margin-top: 2rem;
-  }
+.cid-v5ssh4F3DI .mbr-section-subtitle {
+  text-align: justify;
+  color: #a6a99c;
 }
-@media (max-width: 767px) {
-  .cid-v5a3NAnxnm .row .map-wrapper {
-    margin-top: 1rem;
-  }
-}
-.cid-v5a3NAnxnm .google-map {
-  height: 100%;
-  position: relative;
-}
-.cid-v5a3NAnxnm .google-map iframe {
-  height: 100%;
-  width: 100%;
-}
-@media (max-width: 992px) {
-  .cid-v5a3NAnxnm .google-map iframe {
-    min-height: 350px;
-  }
-}
-.cid-v5a3NAnxnm .google-map [data-state-details] {
-  color: #6b6763;
-  height: 1.5em;
-  margin-top: -0.75em;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-.cid-v5a3NAnxnm .google-map[data-state] {
-  background: #e9e5dc;
-}
-.cid-v5a3NAnxnm .google-map[data-state="loading"] [data-state-details] {
-  display: none;
-}
-.cid-v5a3NAnxnm .card-wrapper {
-  padding: 2.25rem;
-  background: #edefeb;
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-  .cid-v5a3NAnxnm .card-wrapper {
-    padding: 1.5rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-v5a3NAnxnm .card-wrapper {
-    padding: 2rem 1.5rem;
-  }
-}
-.cid-v5a3NAnxnm ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.cid-v5a3NAnxnm .content-head {
-  max-width: 800px;
-}
-.cid-v5a3NAnxnm .mbr-section-title {
+.cid-v5ssh4F3DI .mbr-section-title {
+  text-align: justify;
   color: #edefeb;
-  text-align: center;
 }
 .cid-v5b0zY8ggv {
-  padding-top: 4rem;
+  padding-top: 9rem;
   padding-bottom: 0rem;
   background-color: #1b242c;
 }
